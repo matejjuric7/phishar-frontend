@@ -22,6 +22,10 @@ const Home = () => {
       .then((res) => {
         setResult(res);
         setIsLoading(false);
+      })
+      .catch(() => {
+        setResult({ error: 'Something went wrong' });
+        setIsLoading(false);
       });
   };
 
