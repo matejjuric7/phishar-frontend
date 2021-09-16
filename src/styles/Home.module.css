@@ -1,0 +1,21 @@
+.container {
+  padding: 40px;
+}
+
+.urlInput {
+  width: 200px;
+  margin-right: 20px;
+}
+
+.listElement {
+  margin-bottom: 8px;
+}
+
+.link {
+  color: #0000ff;
+  margin-bottom: 12px;
+}
+
+.link:hover {
+  color: #5858ff;
+}
